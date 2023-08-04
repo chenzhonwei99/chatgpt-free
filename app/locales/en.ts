@@ -6,11 +6,11 @@ const en: LocaleType = {
   WIP: "Coming Soon...",
   Error: {
     Unauthorized:
-      "Unauthorized access, please enter access code in [auth](/#/auth) page.",
+      "The access password is incorrect or not entered. Please go to the [login page](/#/auth) and input 'chatgpt-nice' as your access password to have a free conversation with ChatGPT-3.5-Turbo. Alternatively, you can go to the [settings page](/#/settings) to enter your own OpenAI API Key.",
   },
   Auth: {
     Title: "Need Access Code",
-    Tips: "Please enter access code below",
+    Tips: "Please enter access code below 'chatgpt-nice'",
     Input: "access code",
     Confirm: "Confirm",
     Later: "Later",
