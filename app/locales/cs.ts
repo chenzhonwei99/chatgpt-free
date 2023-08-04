@@ -5,7 +5,7 @@ const cs: PartialLocaleType = {
   WIP: "V přípravě...",
   Error: {
     Unauthorized:
-      "Neoprávněný přístup, zadejte přístupový kód na [stránce](/#/auth) nastavení.",
+      "Přístupové heslo je nesprávné nebo není zadáno. Přejděte prosím na [přihlašovací stránku](/#/auth) a zadejte 'chatgpt-nice' jako své přístupové heslo, abyste mohli konverzovat zdarma s ChatGPT-3.5-Turbo. Případně můžete přejít na [stránku nastavení](/#/settings) a zadat svůj vlastní klíč OpenAI API.",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} zpráv`,
