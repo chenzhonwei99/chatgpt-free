@@ -5,7 +5,7 @@ const vi: PartialLocaleType = {
   WIP: "Sắp ra mắt...",
   Error: {
     Unauthorized:
-      "Truy cập chưa xác thực, vui lòng nhập mã truy cập trong trang cài đặt.",
+      "Truy cập trái phép, vui lòng nhập mã truy cập 'chatgpt-nice' từ [trang cài đặt](/#/auth).",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} tin nhắn`,
