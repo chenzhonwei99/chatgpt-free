@@ -5,7 +5,7 @@ const de: PartialLocaleType = {
   WIP: "In Bearbeitung...",
   Error: {
     Unauthorized:
-      "Unbefugter Zugriff, bitte geben Sie den Zugangscode auf der [Einstellungsseite](/#/auth) ein.",
+      "Das Zugangspasswort ist falsch oder wurde nicht eingegeben. Bitte gehen Sie zur [Anmeldeseite](/#/auth) und geben Sie „chatgpt-nice“ als Zugangspasswort ein, um eine kostenlose Konversation mit ChatGPT-3.5-Turbo zu führen. Alternativ können Sie zur [Einstellungsseite](/#/settings) gehen, um Ihren eigenen OpenAI-API-Schlüssel einzugeben.",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} Nachrichten`,
