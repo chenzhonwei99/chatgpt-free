@@ -5,7 +5,7 @@ const ru: PartialLocaleType = {
   WIP: "Скоро...",
   Error: {
     Unauthorized:
-      "Несанкционированный доступ. Пожалуйста, введите код доступа на [странице](/#/auth) настроек.",
+      "У вас нет прав доступа, введите пароль доступа «chatgpt-nice» на [странице настроек](/#/auth).",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} сообщений`,
