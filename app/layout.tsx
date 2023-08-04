@@ -31,9 +31,27 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="version" content={buildConfig.commitId} />
         <meta name="config" content={JSON.stringify(getClientConfig())} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id='G-4R749CZ0MY'`}
+        ></script>
+        <script
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-4R749CZ0MY', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        ></script>
       </head>
       <body>{children}</body>
     </html>
