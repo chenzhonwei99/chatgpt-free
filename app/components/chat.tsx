@@ -1216,6 +1216,8 @@ function _Chat() {
         })}
       </div>
 
+<div>123</div>
+      
       <div className={styles["chat-input-panel"]}>
         <PromptHints prompts={promptHints} onPromptSelect={onPromptSelect} />
 
