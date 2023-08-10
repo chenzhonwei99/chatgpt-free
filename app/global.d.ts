@@ -15,3 +15,11 @@ declare interface Window {
     writeText(text: string): Promise<void>;
   };
 }
+
+interface Window {
+  adsbygoogle: { [key: string]: unknown }[];
+}
+
+interface Window {
+  adsbygoogle: { [key: string]: unknown }[];
+}
