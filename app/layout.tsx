@@ -6,8 +6,8 @@ import { getClientConfig } from "./config/client";
 import { type Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Use ChatGPT Online Free - Using the OpenAI Chat API",
-  description: "ChatGPT-Free.cc is a chatbot powered by the ChatGPT API. It offers free access to all users for their projects, eliminating the need for paid services or support.",
+  title: "Chat with AI Online",
+  description: "Talk to AI Chatbot and Writing Assistant Online.",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "Use ChatGPT Online Free - Using the OpenAI Chat API",
+    title: "Chat with AI Online",
     statusBarStyle: "default",
   },
 };
